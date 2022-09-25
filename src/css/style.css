@@ -23,6 +23,28 @@
   float: inherit;
 }
 
+.chatbot {
+  position: fixed;
+  right: 108px;
+  bottom: 80px;
+}
+
+.chatbot--button button {
+  display: flex;
+  width: 108px;
+  height: 108px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border-style: none;
+  background: linear-gradient(to right, #bbbcfc, #6f70b2);
+  cursor: pointer;
+}
+
+.chatbot--image {
+  margin-top: 10px;
+}
+
 /* count */
 /* .count {
   display: flex;
