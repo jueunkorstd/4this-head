@@ -23,6 +23,20 @@
   float: inherit;
 }
 
+.banner__title--p-black {
+  margin: 233px 0px 0px 0px;
+  height: 814px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__text--p-black {
+  width: 1320px;
+  height: 814px;
+  display: flex;
+  flex-direction: column;
+}
+
 .chatbot {
   position: fixed;
   right: 108px;
