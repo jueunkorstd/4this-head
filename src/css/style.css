@@ -1,4 +1,4 @@
-/* @import url("http://fonts.cdnfonts.com/css/segoe-ui-4"); */
+@import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
 @import "./reset.css";
 @import "./variable.css";
 
@@ -12,29 +12,40 @@
   width: 100%;
   height: 5381px;
   background-image: url("../assets/images/main-bg.png");
+  background-size: cover;
   margin-top: 100px;
 }
 
 .banner {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 814px;
   background-color: white;
-  display: flex;
-  float: inherit;
 }
 
 .banner__title--p-black {
-  margin: 233px 0px 0px 0px;
-  height: 814px;
-  display: flex;
-  flex-direction: column;
+  font-size: 90px;
+  font-weight: 400px;
+  margin: 248px 0px 0px 319px;
 }
 
 .banner__text--p-black {
-  width: 1320px;
-  height: 814px;
-  display: flex;
-  flex-direction: column;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 31px;
+  margin: 18px 0px 0px 319px;
+}
+
+.banner__support--button button {
+  font-size: 30px;
+  font-weight: 400px;
+  border-style: none;
+  color: #6f70b2;
+  background-color: #fff;
+  margin: 127px 0px 0px 319px;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .chatbot {
